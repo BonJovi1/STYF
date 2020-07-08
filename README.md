@@ -1,5 +1,6 @@
 # STYF-Stop-Touching-Your-Face
-A real-time YOLOv3 object detection model for detecting face touches.
+A real-time YOLOv3 object detection model for detecting face touches. \
+Spring 2020
 
 The Basic Pipeline:
 - We first curated a custom 'Face-Hands' dataset, comprising of around 140 images - with and without my hand touching it. Data augmentation was performed as well, by randomising the brightness of the images. 
