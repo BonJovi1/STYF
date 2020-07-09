@@ -1,6 +1,6 @@
 # STYF-Stop-Touching-Your-Face
 A real-time YOLOv3 object detection model for detecting face touches. \
-Spring 2020
+Here is a video, showing our final results from a live webcam feed: [link to video](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/abhinav_g_students_iiit_ac_in/EZSQn2CeNehBm47Gf414KpcBSUL7t70YMea6iVi9rydnIA?e=PmfI8M)
 
 ### Abstract
 The World Health Organisation (WHO) proposes many preventive techniques to stay safe from the ongoing coron- avirus pandemic, especially to avoid touching our faces in order to decrease the probability of contracting the virus. However, touching one’s face is a very involuntary and ha- bitual action. We propose a ’Stop Touching Your Face’ YOLOv3 object detection model trained on a custom dataset of ’Face-Hands’ images that would detect a hand touching the face in real time and alert the user about the imminent danger.
