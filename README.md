@@ -2,6 +2,8 @@
 A real-time YOLOv3 object detection model for detecting face touches. \
 Here is a video, showing our final results from a live webcam feed: [link to video](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/abhinav_g_students_iiit_ac_in/EZSQn2CeNehBm47Gf414KpcBSUL7t70YMea6iVi9rydnIA?e=PmfI8M)
 
+Done as an independent project in Spring 2020.
+
 ![](./images/results.png)
 
 ### Abstract
