@@ -6,7 +6,7 @@ A real-time YOLOv3 object detection model for detecting face touches.
 ### Abstract
 The World Health Organisation (WHO) proposes many preventive techniques to stay safe from the ongoing coron- avirus pandemic, especially to avoid touching our faces in order to decrease the probability of contracting the virus. However, touching one’s face is a very involuntary and habitual action. We propose a ’Stop Touching Your Face’ YOLOv3 object detection model which can detect unhygienic face touches and warn the user when the hand reaches fairly close to one's face. The model is trained on a manually curated dataset of ’Face-Hands’ images using data augmentation and transfer learning. We achieve an accuracy of 89% on this custom dataset. Our application is able to generalise well to people with different facial features with an average confidence score of 74%. 
 
-You can find our trained model weights here: [link to YOLO weights](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/abhinav_g_students_iiit_ac_in/EQxCNL8XP9RMqNJHQJhPl2oBXn8b9CkaLpX-PJAYnjGYfQ?e=bgxivt)
+We use this tensorflow [implementation of YOLO](https://github.com/AntonMu/TrainYourOwnYOLO) to train our model. You can find our trained model weights here: [link to YOLO weights](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/abhinav_g_students_iiit_ac_in/EQxCNL8XP9RMqNJHQJhPl2oBXn8b9CkaLpX-PJAYnjGYfQ?e=bgxivt)
 
 ### The Pipeline:
 - We first curated a custom 'Face-Hands' dataset, comprising of around 140 images - with and without my hand touching it. Data augmentation was performed as well, by randomising the brightness of the images.
