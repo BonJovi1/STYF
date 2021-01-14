@@ -6,6 +6,8 @@ A real-time YOLOv3 object detection model for detecting face touches.
 ### Abstract
 The World Health Organisation (WHO) proposes many preventive techniques to stay safe from the ongoing coron- avirus pandemic, especially to avoid touching our faces in order to decrease the probability of contracting the virus. However, touching one’s face is a very involuntary and ha- bitual action. We propose a ’Stop Touching Your Face’ YOLOv3 object detection model trained on a custom dataset of ’Face-Hands’ images that would detect a hand touching the face in real time and alert the user about the imminent danger.
 
+You can find our trained model weights here: link to YOLO weights
+
 ### The Basic Pipeline:
 - We first curated a custom 'Face-Hands' dataset, comprising of around 140 images - with and without my hand touching it. Data augmentation was performed as well, by randomising the brightness of the images.
 - We apply transfer learning and fine-tune a YOLOv3 model for this dataset, using the pre-trained weights from ImageNet. We only predict those bounding boxes with the highest confidence scores to avoid multiple detections. 
